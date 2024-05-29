@@ -7,9 +7,12 @@ const about = () => {
     return (
         <div>
             <h1>About page</h1>
-
             <Link href="/">Go to Home Page</Link>
             <button onClick={() => router.push("/")}>Go to home page</button>
+            <br />
+            <Link href="/about/aboutcollage">Go to bout collage page</Link>
+            <br /><br />
+            <Link href="/about/aboutstudent">Go to bout collage page</Link>
         </div>
     )
 }
